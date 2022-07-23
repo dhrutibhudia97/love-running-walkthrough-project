@@ -3,6 +3,7 @@
 padding:0;
 margin:none;
 }
+
 body {
     font-family:lato, sans-serif;
     font-weight:300;
@@ -18,6 +19,7 @@ h1, h2 {font-family:oswald; sans-serif;
 #logo {
     float:left;
     font-size:280%;
+    margin-left:30px;
 }
 /* navigation links */
 #menu {
@@ -95,4 +97,26 @@ animation-fill-mode: forwards;
     bottom: 30px;
     right:150px;
     position:absolute;
+}
+
+#club-ethos {
+    height:600px;
+}
+
+#left-about {
+    padding-top:30px;
+    width:33%;
+    float:left;
+    background-color:blue;
+}
+#right-about {
+    padding-top:30px;
+    width:33%;
+    float:right;
+    background-color:silver;
+}
+#center-about {
+    width:33%;
+    margin:0 auto;
+    background-color:green;
 }
