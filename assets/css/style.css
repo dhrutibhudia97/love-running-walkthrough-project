@@ -201,22 +201,35 @@ hr {
 
 /* footer */
 footer {
-    height:150px;
+    height: 150px;
 
 }
 
 .social-networks{
-    text-align:center;
+    text-align: center;
 }
 
 .social-networks > li {
-    display:inline;
+    display: inline;
 }
 
 .social-networks i {
-    font-size:160%;
-    margin:1%;
-    padding:5%;
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
     color:#3a3a3a;
+
+}
+
+/* gallery */
+#photos {
+clear:both;
+line-height: 0;
+column-count: 4;
+column-gap: 0;
+}
+
+#photos > img {
+    width:100%;
     
 }
